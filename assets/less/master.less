@@ -1,0 +1,53 @@
+@base-padding: 30px;
+@base-margin: @base-padding;
+@base-text-color: #FFFFFF;
+
+@base-font-family: Helvetica, Arial, 'lucida grande', Tahoma, Verdana, Arial, Sans-serif;
+
+html, body {
+	font-family: @base-font-family;
+}
+
+body {
+	background: url("../images/wallpaper.jpg") top center no-repeat;
+	background-size: 100% 100%;
+}
+
+.app {
+	.app-header {
+		position: relative;
+
+		.app-container {
+			margin: 0 auto;
+			width: 520px;
+			padding: @base-padding 0;
+
+			.app-logo {
+				text-decoration: none;
+				color: @base-text-color;
+				
+				span {
+					display: block;
+				}
+
+				.logo {
+					font-size: 4em;
+					text-transform: uppercase;
+				}
+
+				.slogan {
+					font-size: 3em;
+					font-family: Georgia;
+					font-style: italic;
+				}
+			}
+		}
+	}
+
+	.app-tweets {
+		margin: 0 auto;
+		width: 520px;
+		padding: @base-padding 0;
+		padding-top: @base-padding * 3;
+	}
+}

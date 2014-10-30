@@ -1,0 +1,46 @@
+html,
+body {
+    font-family: Helvetica, Arial, 'lucida grande', Tahoma, Verdana, Arial, Sans-serif;
+}
+
+body {
+    background: url("../images/wallpaper.jpg") top center no-repeat;
+    background-size: 100% 100%;
+}
+
+.app .app-header {
+    position: relative;
+}
+
+.app .app-header .app-container {
+    margin: 0 auto;
+    width: 520px;
+    padding: 30px 0;
+}
+
+.app .app-header .app-container .app-logo {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.app .app-header .app-container .app-logo span {
+    display: block;
+}
+
+.app .app-header .app-container .app-logo .logo {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.app .app-header .app-container .app-logo .slogan {
+    font-size: 3em;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.app .app-tweets {
+    margin: 0 auto;
+    width: 520px;
+    padding: 30px 0;
+    padding-top: 90px;
+}
